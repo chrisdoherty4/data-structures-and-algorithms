@@ -1,0 +1,7 @@
+project('dsa', ['cpp'])
+incs = include_directories('include')
+srcs = [
+    'LinkedList.cc'
+]
+
+library('dsa', srcs, include_directories: incs)
