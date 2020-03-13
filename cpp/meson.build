@@ -1,5 +1,7 @@
-project('dsa', ['cpp'])
+project('data-structures-and-algorithms', ['cpp'])
+
 incs = include_directories('include')
+
 srcs = [
     'LinkedList.cc'
 ]
